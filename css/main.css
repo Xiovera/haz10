@@ -2,8 +2,8 @@
 	outline: 1px solid red;
 }*/
 
-.diff-fondo{
-	background: url(../fondo.jpg);
+.haz10-fondo{
+	background: url(../numbpattern.jpg);
 
 }
 .container-fluid{
@@ -11,7 +11,7 @@
 	padding-top: 100px;
 	height: 650px;
 }
-h1, h4, label{
+h1, h2, h3, h4, label{
 	font-family: 'Fredoka+One',cursive;
 	color: red;
 	text-shadow: 1px 1px black;

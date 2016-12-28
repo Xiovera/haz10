@@ -24,35 +24,28 @@
 				<div class="col-md-6">
 					<div class="form-group">
 					 	<label class="well" for="numberA">Ingresa un número:</label>
-					 	<input type="email" class="form-control" id="numberA" placeholder="0">
+					 	<input type="text" class="form-control" id="numberA" placeholder="0">
 					</div>
 					<hr>
 					<div class="form-group">
 						<label class="well" for="numberB">Ingresa otro número:</label>
-					 	<input type="email" class="form-control" id="numberB" placeholder="0">
+					 	<input type="text" class="form-control" id="numberB" placeholder="0">
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<label class="well" for="mayor">¿Alguno de los números ingresados son negativo?</label>
-						<select class="form-control" id="mayor">
-							<option value="1">Si</option>
-							<option value="2">No</option>
-						</select>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-					<button onclick="calcular()" class="center-block btn btn-info">Calcular</button>
-					<div>
-						<h2 class="center-block" role="alert" id="diff"></h2>				
+						<h3 class="well">¿Ambos suman 10?</h3>
+						<h1 id="salida1" class="text-center"></h1>
+						<h2 id="salida2" class="text-center"></h2>
+						<p class="text-center"><button onclick="evaluar()" class="center-block btn btn-info">Evaluar</button></p>
+						
 					</div>
 				</div>					
 				</div>
 			</div>
 		</div>		
 	</div>
-	<a class="well" href="">link repo </a>
+	<a class="well" href="https://github.com/Xiovera/haz10">link repo </a>
 </div>
 </body>
 <script src="Js/main.js"></script>
